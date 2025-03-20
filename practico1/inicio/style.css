@@ -1,0 +1,11 @@
+#ola {
+    width: 100%;
+    height: auto;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
