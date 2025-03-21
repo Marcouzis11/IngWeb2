@@ -1,0 +1,90 @@
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    width: 100%;
+}
+
+#cuadrosTexto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    vertical-align: center;
+    align-items: center;
+    height:100vh;
+    width: 100%;
+}
+
+.entrada{
+    width: 85%;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.entrada:focus{
+    outline: none;
+}
+
+.divEntradas{
+    display: flex;
+    align-items: center;
+    background-color: #303F9F33;
+    height: 5%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.logoEntradas{
+    width: 10%;
+    height: 70%;
+}
+
+.olvidarContrasena{
+    width: 80%;
+}
+
+#olvidasteContrasena{
+    text-decoration: underline;
+    cursor: pointer;
+    float: right;
+}
+
+.divBoton{
+    width: 80%;
+    height: 5%;
+}
+
+#boton{
+    width:100%;
+    height: 100%;
+    background-color: rgb(23, 23, 118);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 200%;
+}
+
+.divRegistro{
+    width: 80%;
+    height: 5%;
+    display: inline;
+}
+
+#notenescuenta{
+    float:right;
+}
+
+#registrate{
+    cursor:pointer;
+}
+
+#registrate:hover{
+    text-decoration:underline;
+}
+
